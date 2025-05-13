@@ -2,7 +2,7 @@
 
 The goal here is to hide the TFP MCMC complexity and make this run really fast.
 
-The model is $y ~ N(a + b * X, sigma)$ where a and b have normal priors that can be changed.
+The model is $y \sim N(a + b * X, \sigma)$ where a and b have normal priors that can be changed.
 
 ```
     n = 100
